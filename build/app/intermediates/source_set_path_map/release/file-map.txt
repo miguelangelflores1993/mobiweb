@@ -1,0 +1,16 @@
+mobi.latam.app-jetified-window-1.0.0-beta04-0 /Users/miguelangelflores/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/res
+mobi.latam.app-core-1.7.0-1 /Users/miguelangelflores/.gradle/caches/transforms-3/57d13c65eae90a7945dea98c1aa2b720/transformed/core-1.7.0/res
+mobi.latam.app-jetified-annotation-experimental-1.1.0-2 /Users/miguelangelflores/.gradle/caches/transforms-3/6c0c163cc77ae6c91f9f7dfcd179c29c/transformed/jetified-annotation-experimental-1.1.0/res
+mobi.latam.app-lifecycle-runtime-2.3.1-3 /Users/miguelangelflores/.gradle/caches/transforms-3/9a249567dcb8025899915ed9a2426636/transformed/lifecycle-runtime-2.3.1/res
+mobi.latam.app-jetified-window-java-1.0.0-beta04-4 /Users/miguelangelflores/.gradle/caches/transforms-3/ae81e06d24c799147c26814497a2a305/transformed/jetified-window-java-1.0.0-beta04/res
+mobi.latam.app-jetified-exoplayer-core-2.18.7-5 /Users/miguelangelflores/.gradle/caches/transforms-3/e255c6ce9910a673f2619b479a7d74a8/transformed/jetified-exoplayer-core-2.18.7/res
+mobi.latam.app-main-6 /Users/miguelangelflores/CARLOS_OLIVERA/app/android/app/src/main/res
+mobi.latam.app-release-7 /Users/miguelangelflores/CARLOS_OLIVERA/app/android/app/src/release/res
+mobi.latam.app-pngs-8 /Users/miguelangelflores/CARLOS_OLIVERA/app/build/app/generated/res/pngs/release
+mobi.latam.app-resValues-9 /Users/miguelangelflores/CARLOS_OLIVERA/app/build/app/generated/res/resValues/release
+mobi.latam.app-rs-10 /Users/miguelangelflores/CARLOS_OLIVERA/app/build/app/generated/res/rs/release
+mobi.latam.app-mergeReleaseResources-11 /Users/miguelangelflores/CARLOS_OLIVERA/app/build/app/intermediates/incremental/release/mergeReleaseResources/merged.dir
+mobi.latam.app-mergeReleaseResources-12 /Users/miguelangelflores/CARLOS_OLIVERA/app/build/app/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+mobi.latam.app-merged_res-13 /Users/miguelangelflores/CARLOS_OLIVERA/app/build/app/intermediates/merged_res/release
+mobi.latam.app-packaged_res-14 /Users/miguelangelflores/CARLOS_OLIVERA/app/build/path_provider_android/intermediates/packaged_res/release
+mobi.latam.app-packaged_res-15 /Users/miguelangelflores/CARLOS_OLIVERA/app/build/video_player_android/intermediates/packaged_res/release

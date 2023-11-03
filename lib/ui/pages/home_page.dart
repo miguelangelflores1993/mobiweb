@@ -8,6 +8,7 @@ import 'package:vertical_landing_page/ui/views/about_view.dart';
 import 'package:vertical_landing_page/ui/views/contact_view.dart';
 import 'package:vertical_landing_page/ui/views/location_view.dart';
 import 'package:vertical_landing_page/ui/views/home_view.dart';
+import 'package:vertical_landing_page/ui/views/nosotros.dart';
 import 'package:vertical_landing_page/ui/views/pricing_view.dart';
 
 class HomePage extends StatefulWidget {
@@ -175,6 +176,7 @@ class _HomeBody extends StatelessWidget {
         PricingView(),
         ContactView(),
         LocationView(),
+        NosotrosView(),
       ],
     );
   }

@@ -119,95 +119,102 @@ class ContactView extends StatelessWidget {
                 Expanded(
                   child: Container(
                     padding: EdgeInsets.all(40),
+                    width: MediaQuery.of(context).size.width,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(24)),
                       color: Color(0xff101820),
                     ),
-                    child: Column(children: [
-                      Text(
-                        "MOPED URBAN",
-                        style: TextStyle(
+                    child: Column(
+                      children: [
+                        Text(
+                          "MOPED URBAN",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
                             fontSize: ResponsiveBreakpoints.of(context).largerThan(TABLET) ? 45 : 20,
                             color: Colors.white,
-                            fontWeight: FontWeight.w700),
-                      ),
-                      SizedBox(
-                        height: 10,
-                      ),
-                      Text(
-                        "La mejor alternativa para transportarte al trabajo, la universidad o cualquier otro lugar en tu día a día.",
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                            fontSize: ResponsiveBreakpoints.of(context).largerThan(TABLET) ? 18 : 18,
-                            color: Colors.white,
-                            fontWeight: FontWeight.w400),
-                      ),
-                      SizedBox(
-                        height: 20,
-                      ),
-                      Container(
-                        decoration: BoxDecoration(
-                          gradient: LinearGradient(colors: [Color(0xffE4002B), Color(0xff7200A6)]),
-                          border: Border.all(
-                            color: Colors.transparent,
+                            fontWeight: FontWeight.w700,
                           ),
-                          borderRadius: BorderRadius.circular(50),
                         ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(2.0),
-                          child: ElevatedButton(
-                            onPressed: () {},
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor: Color(0xff0A0F14),
-                              minimumSize: Size(200, 50),
-                              padding: EdgeInsets.all(8),
-                              //<-- SEE HERE
-                              side: BorderSide(
-                                width: 2.0,
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Text(
+                          "La mejor alternativa para transportarte al trabajo, la universidad o cualquier otro lugar en tu día a día.",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                              fontSize: ResponsiveBreakpoints.of(context).largerThan(TABLET) ? 18 : 18,
+                              color: Colors.white,
+                              fontWeight: FontWeight.w400),
+                        ),
+                        SizedBox(
+                          height: 20,
+                        ),
+                        Center(
+                          child: Container(
+                            decoration: BoxDecoration(
+                              gradient: LinearGradient(colors: [Color(0xffE4002B), Color(0xff7200A6)]),
+                              border: Border.all(
+                                color: Colors.transparent,
                               ),
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(50),
+                              borderRadius: BorderRadius.circular(50),
+                            ),
+                            child: Padding(
+                              padding: const EdgeInsets.all(2.0),
+                              child: ElevatedButton(
+                                onPressed: () {},
+                                style: ElevatedButton.styleFrom(
+                                  backgroundColor: Color(0xff0A0F14),
+                                  minimumSize: Size(200, 50),
+                                  maximumSize: Size(200, 50),
+                                  padding: EdgeInsets.all(8),
+                                  //<-- SEE HERE
+                                  side: BorderSide(
+                                    width: 2.0,
+                                  ),
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(50),
+                                  ),
+                                ),
+                                child: Text('Reservar', style: TextStyle(fontSize: 24, color: Colors.white, fontWeight: FontWeight.w400)),
                               ),
                             ),
-                            child: Text('Reservar', style: TextStyle(fontSize: 24, color: Colors.white, fontWeight: FontWeight.w400)),
                           ),
                         ),
-                      ),
-                      SizedBox(
-                        height: 20,
-                      ),
-                      Text(
-                        "Reserva por solo 30 USD",
-                        style: TextStyle(
-                            fontSize: ResponsiveBreakpoints.of(context).largerThan(TABLET) ? 28 : 28,
-                            color: Colors.white,
-                            fontWeight: FontWeight.w600),
-                      ),
-                      SizedBox(
-                        height: 10,
-                      ),
-                      Text(
-                        "Paga luego 125 USD  al mes.",
-                        style: TextStyle(
+                        SizedBox(
+                          height: 20,
+                        ),
+                        Text(
+                          textAlign: TextAlign.center,
+                          "Reserva por solo 30 USD",
+                          style: TextStyle(
+                              fontSize: ResponsiveBreakpoints.of(context).largerThan(TABLET) ? 28 : 28,
+                              color: Colors.white,
+                              fontWeight: FontWeight.w600),
+                        ),
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Text(
+                          "Paga luego 125 USD  al mes.",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                              fontSize: ResponsiveBreakpoints.of(context).largerThan(TABLET) ? 18 : 18,
+                              color: Colors.white,
+                              fontWeight: FontWeight.w400),
+                        ),
+                        Image.asset("assets/MOTO1.png"),
+                        Spacer(),
+                        Text(
+                          "¿Qué incluye?",
+                          style: TextStyle(
                             fontSize: ResponsiveBreakpoints.of(context).largerThan(TABLET) ? 18 : 18,
                             color: Colors.white,
-                            fontWeight: FontWeight.w400),
-                      ),
-                      SizedBox(
-                        height: 20,
-                      ),
-                      Image.asset("assets/MOTO1.png"),
-                      Spacer(),
-                      Text(
-                        "¿Qué incluye?",
-                        style: TextStyle(
-                          fontSize: ResponsiveBreakpoints.of(context).largerThan(TABLET) ? 18 : 18,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w700,
-                          decoration: TextDecoration.underline,
+                            fontWeight: FontWeight.w700,
+                            decoration: TextDecoration.underline,
+                          ),
                         ),
-                      ),
-                    ]),
+                      ],
+                    ),
                   ),
                 ),
               ],

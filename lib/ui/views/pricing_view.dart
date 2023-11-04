@@ -7,41 +7,42 @@ class PricingView extends StatelessWidget {
     var size = MediaQuery.of(context).size;
     return Container(
       width: size.width,
-      height: size.height - 90,
-      margin: EdgeInsets.symmetric(horizontal: ResponsiveBreakpoints.of(context).largerThan(TABLET) ? 100.0 : 20),
+      margin: EdgeInsets.symmetric(
+        horizontal: ResponsiveBreakpoints.of(context).largerThan(TABLET) ? 100.0 : 20,
+      ),
       child: Column(
         children: [
-          Expanded(
-            child: Stack(
-              children: [
-                ClipRRect(
-                  borderRadius: BorderRadius.all(Radius.circular(24)),
-                  child: Image.asset(
-                    ResponsiveBreakpoints.of(context).largerThan(TABLET) ? "assets/digital.png" : "assets/sostenibilidad.png",
-                    width: size.width,
-                    fit: BoxFit.fitWidth,
-                  ),
+          Stack(
+            children: [
+              ClipRRect(
+                borderRadius: BorderRadius.all(Radius.circular(24)),
+                child: Image.asset(
+                  ResponsiveBreakpoints.of(context).largerThan(TABLET)
+                      ? "assets/digital.png"
+                      : "assets/sostenibilidad.png",
+                  width: size.width,
+                  fit: BoxFit.fitWidth,
                 ),
-                ResponsiveVisibility(
-                  visible: ResponsiveBreakpoints.of(context).largerThan(TABLET),
-                  child: Positioned.fill(
-                    child: Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 100.0),
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                        child: Text(
-                          "Comprometidos con \nel medio ambiente.",
-                          style: TextStyle(
-                              fontSize: ResponsiveBreakpoints.of(context).largerThan(TABLET) ? 35 : 20,
-                              color: Colors.white,
-                              fontWeight: FontWeight.w700),
-                        ),
+              ),
+              ResponsiveVisibility(
+                visible: ResponsiveBreakpoints.of(context).largerThan(TABLET),
+                child: Positioned.fill(
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 100.0),
+                    child: Align(
+                      alignment: Alignment.centerLeft,
+                      child: Text(
+                        "Comprometidos con \nel medio ambiente.",
+                        style: TextStyle(
+                            fontSize: ResponsiveBreakpoints.of(context).largerThan(TABLET) ? 35 : 20,
+                            color: Colors.white,
+                            fontWeight: FontWeight.w700),
                       ),
                     ),
                   ),
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
           SizedBox(
             height: 30,
@@ -57,7 +58,9 @@ class PricingView extends StatelessWidget {
               child: Text(
                 "SUSCRIBETE",
                 style: TextStyle(
-                    fontSize: ResponsiveBreakpoints.of(context).largerThan(TABLET) ? 35 : 20, color: Colors.white, fontWeight: FontWeight.w700),
+                    fontSize: ResponsiveBreakpoints.of(context).largerThan(TABLET) ? 35 : 20,
+                    color: Colors.white,
+                    fontWeight: FontWeight.w700),
               ),
             ),
           )

@@ -179,8 +179,6 @@ class ContactView extends StatelessWidget {
                                     style: TextStyle(fontSize: 24, color: Colors.white, fontWeight: FontWeight.w400)),
                               ),
                             ),
-                            child: Text('Reservar',
-                                style: TextStyle(fontSize: 24, color: Colors.white, fontWeight: FontWeight.w400)),
                           ),
                         ),
                         SizedBox(

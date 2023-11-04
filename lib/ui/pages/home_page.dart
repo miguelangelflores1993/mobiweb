@@ -3,10 +3,12 @@ import 'package:provider/provider.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 import 'package:vertical_landing_page/providers/page_provider.dart';
 import 'package:vertical_landing_page/ui/views/about_view.dart';
-import 'package:vertical_landing_page/ui/views/benefits_page.dart';
+import 'package:vertical_landing_page/ui/views/benefits_view.dart';
 import 'package:vertical_landing_page/ui/views/contact_view.dart';
+import 'package:vertical_landing_page/ui/views/faqs_view.dart';
+import 'package:vertical_landing_page/ui/views/footer_view.dart';
 import 'package:vertical_landing_page/ui/views/home_view.dart';
-import 'package:vertical_landing_page/ui/views/location_view.dart';
+import 'package:vertical_landing_page/ui/views/nosotros.dart';
 import 'package:vertical_landing_page/ui/views/pricing_view.dart';
 
 class HomePage extends StatefulWidget {
@@ -111,8 +113,10 @@ class _HomeBody extends StatelessWidget {
         AboutView(),
         PricingView(),
         ContactView(),
-        LocationView(),
         BenefitsView(),
+        FaqsView(),
+        NosotrosView(),
+        FooterView(),
       ],
     );
   }

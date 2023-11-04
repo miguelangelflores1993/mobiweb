@@ -12,8 +12,6 @@ class _HomeViewState extends State<HomeView> {
 
   @override
   void initState() {
-    print("INIT");
-
     super.initState();
     initVideo();
   }
@@ -23,13 +21,11 @@ class _HomeViewState extends State<HomeView> {
     // _controller = VideoPlayerController.networkUrl(Uri.parse('https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4'));
 
     await _controller.initialize();
-    print("END initialize");
 
     _controller.setVolume(0);
     _controller.play();
     _controller.setLooping(true);
     setState(() {});
-    print("END PLAY");
   }
 
   @override
@@ -41,8 +37,6 @@ class _HomeViewState extends State<HomeView> {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
-    print(_controller.value.isInitialized);
-    print(_controller.value.isPlaying);
     return Container(
       width: size.width,
       height: size.height,
@@ -56,10 +50,6 @@ class _HomeViewState extends State<HomeView> {
                 Positioned.fill(
                   child: LayoutBuilder(
                     builder: (BuildContext context, BoxConstraints constraints) {
-                      print(_controller.value.size.width);
-                      print(constraints.maxWidth);
-                      print(constraints.maxHeight);
-                      print(_controller.value.size.width);
                       return FittedBox(
                         fit: ResponsiveBreakpoints.of(context).largerThan(TABLET) ? BoxFit.fill : BoxFit.fitHeight,
                         child: SizedBox(

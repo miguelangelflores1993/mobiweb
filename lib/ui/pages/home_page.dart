@@ -6,6 +6,7 @@ import 'package:vertical_landing_page/providers/page_provider.dart';
 
 import 'package:vertical_landing_page/ui/views/about_view.dart';
 import 'package:vertical_landing_page/ui/views/contact_view.dart';
+import 'package:vertical_landing_page/ui/views/footer_view.dart';
 import 'package:vertical_landing_page/ui/views/location_view.dart';
 import 'package:vertical_landing_page/ui/views/home_view.dart';
 import 'package:vertical_landing_page/ui/views/nosotros.dart';
@@ -177,6 +178,7 @@ class _HomeBody extends StatelessWidget {
         ContactView(),
         LocationView(),
         NosotrosView(),
+        FooterView(),
       ],
     );
   }

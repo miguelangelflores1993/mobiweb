@@ -144,7 +144,6 @@ class GradientText extends StatelessWidget {
     return ShaderMask(
       blendMode: BlendMode.srcIn,
       shaderCallback: (bounds) {
-        print(bounds.width);
         return gradient.createShader(
           Rect.fromLTWH(0, 0, bounds.width, bounds.height),
         );

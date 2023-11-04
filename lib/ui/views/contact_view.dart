@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:responsive_framework/responsive_breakpoints.dart';
 
 class ContactView extends StatelessWidget {
@@ -72,7 +71,8 @@ class ContactView extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(50),
                               ),
                             ),
-                            child: Text('Reservar', style: TextStyle(fontSize: 24, color: Colors.white, fontWeight: FontWeight.w400)),
+                            child: Text('Reservar',
+                                style: TextStyle(fontSize: 24, color: Colors.white, fontWeight: FontWeight.w400)),
                           ),
                         ),
                       ),
@@ -169,7 +169,8 @@ class ContactView extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(50),
                               ),
                             ),
-                            child: Text('Reservar', style: TextStyle(fontSize: 24, color: Colors.white, fontWeight: FontWeight.w400)),
+                            child: Text('Reservar',
+                                style: TextStyle(fontSize: 24, color: Colors.white, fontWeight: FontWeight.w400)),
                           ),
                         ),
                       ),
@@ -225,9 +226,11 @@ class ContactView extends StatelessWidget {
             ),
             child: Center(
               child: Text(
-                "SUSCRIBETE",
+                "BENEFICIOS INCLUIDOS",
                 style: TextStyle(
-                    fontSize: ResponsiveBreakpoints.of(context).largerThan(TABLET) ? 35 : 20, color: Colors.white, fontWeight: FontWeight.w700),
+                    fontSize: ResponsiveBreakpoints.of(context).largerThan(TABLET) ? 35 : 20,
+                    color: Colors.white,
+                    fontWeight: FontWeight.w700),
               ),
             ),
           )

@@ -3,8 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "768448877ef1171396ea2ef9c85dd14a",
-"assets/AssetManifest.json": "d3b8c0f8e045ef75289a6f5d99454cdf",
+const RESOURCES = {"assets/AssetManifest.bin": "f135862be47f7b70f1f77e66e2d2e8b6",
+"assets/AssetManifest.json": "ae5573b8a247c69c9412e4304362421b",
 "assets/assets/batery.png": "a23951f46c58ff120b172e286f2e8a68",
 "assets/assets/batery_hover.png": "d8448972ee7897978206a25c4add65d9",
 "assets/assets/cb.png": "a07ae42ae7267b97813b9644cc0ca8db",
@@ -31,11 +31,13 @@ const RESOURCES = {"assets/AssetManifest.bin": "768448877ef1171396ea2ef9c85dd14a
 "assets/assets/moped2.png": "4a35f79f5f3f0429d56f63f981763e35",
 "assets/assets/moped_delivery.png": "05e9ffc7e04f8881ae155ea0ae0e88d8",
 "assets/assets/moped_delivery_hover.png": "1a11a99ad5ccb2bca8ca1cce476aa06f",
-"assets/assets/moped_mobile.png": "e6de252fcac28c2bcf8cc884c12d139c",
+"assets/assets/moped_mobile.png": "8a83837cdb963342d0d5a8e83d7dd90c",
+"assets/assets/moped_mobile_of.png": "e6de252fcac28c2bcf8cc884c12d139c",
 "assets/assets/moped_tablet.png": "3ec9ba0f9439e88b25541d05390bb4d9",
 "assets/assets/MOTO1.png": "4d052bf2c5bd80432be20ab74563bc3b",
 "assets/assets/MOTO2.png": "5cda4aec8eaf2bb4c0331bfbaeb8b553",
 "assets/assets/nosotros.png": "8b02d4e212ac184a9fef958659345750",
+"assets/assets/nosotros_defaul.png": "b690af29d954a6e70fae8e330515c287",
 "assets/assets/nosotros_mobile.png": "d583841d166f0237f00bff7c53f8c648",
 "assets/assets/nosotros_tablet.png": "a1621e42d2b5639102e85360f479d195",
 "assets/assets/nosotros_tablet_2.png": "0a8808a1a1300889683435645995bcae",
@@ -60,7 +62,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "768448877ef1171396ea2ef9c85dd14a
 "assets/fonts/Montserrat-Regular.ttf": "5e077c15f6e1d334dd4e9be62b28ac75",
 "assets/fonts/Montserrat-SemiBold.ttf": "cc10461cb5e0a6f2621c7179f4d6de17",
 "assets/fonts/Montserrat-Thin.ttf": "b3638b16904211d1d24d04ce53810c4d",
-"assets/NOTICES": "aee7f7aa3845a26bc3d818f28ba4e8e0",
+"assets/NOTICES": "5a7dbe9361b869fd943c82b73bbb8709",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "89ed8f4e49bcdfc0b5bfc9b24591e347",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "f25e8e701660fb45e2a81ff3f43c6d5c",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "a5d7457fda15b7622c14f432ba63039a",
@@ -81,9 +83,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "768448877ef1171396ea2ef9c85dd14a
 "icons/Icon-512.png": "16eadc2216645261823cfe0e7e54c7bd",
 "icons/Icon-maskable-192.png": "7c2600b631a162e4ff83fcb9b36718a0",
 "icons/Icon-maskable-512.png": "16eadc2216645261823cfe0e7e54c7bd",
-"index.html": "54b8831230bdf20574cb110864717c62",
-"/": "54b8831230bdf20574cb110864717c62",
-"main.dart.js": "9eb385242ae165540eab0857785bd1b2",
+"index.html": "d16d50ffbd61388e47d164dea37a6881",
+"/": "d16d50ffbd61388e47d164dea37a6881",
+"main.dart.js": "259e69514fc8a32b15ab7211a1561a04",
 "manifest.json": "34d7a93a24a9edfdcbc76b9763f73a11",
 "version.json": "d1ae22bf2528e9c3a99555f3ae35ffb1"};
 // The application shell files that are downloaded before a service worker can

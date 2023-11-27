@@ -46,7 +46,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "c7faad86c0bca1d990451f85266c94d7
 "assets/assets/reemplazo_hover.png": "430de741d150ce0f5803749c6053f616",
 "assets/assets/seguro.png": "c4beeaded0fb60189e74929f573bb332",
 "assets/assets/seguro_hover.png": "71c64773135d1c55e79c651c8917bf93",
-"assets/assets/sostenibilidad.png": "0c54d3cc3cae40bcb11becdeb75b3dee",
+"assets/assets/sostenibilidad.png": "335230796037645ab0bce8a841fb0e42",
 "assets/assets/support.png": "f8f3c64f2e137bde03da80e8fe6e449a",
 "assets/assets/support_hover.png": "cb8250e787dbf2323460e8aef2a6e0b1",
 "assets/assets/tiktok.png": "bcc48582be8b4bb86e8850affbb41e12",
@@ -84,9 +84,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "c7faad86c0bca1d990451f85266c94d7
 "icons/Icon-512.png": "16eadc2216645261823cfe0e7e54c7bd",
 "icons/Icon-maskable-192.png": "7c2600b631a162e4ff83fcb9b36718a0",
 "icons/Icon-maskable-512.png": "16eadc2216645261823cfe0e7e54c7bd",
-"index.html": "0443bcc208b870f31d365be354b714b3",
-"/": "0443bcc208b870f31d365be354b714b3",
-"main.dart.js": "30b8a71408ef36e829a68d9dd49f2b71",
+"index.html": "f745b2b2e5c7bd56f73cf7837d8194c0",
+"/": "f745b2b2e5c7bd56f73cf7837d8194c0",
+"main.dart.js": "1064c7992e67c4d0c2ceb6e3fa7765f5",
 "manifest.json": "34d7a93a24a9edfdcbc76b9763f73a11",
 "version.json": "d1ae22bf2528e9c3a99555f3ae35ffb1"};
 // The application shell files that are downloaded before a service worker can
